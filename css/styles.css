@@ -1,0 +1,54 @@
+:root{
+  --bg-color : #FFF2D8;
+  --btn-primary-color: #113946;
+  --btn-secondary-color: #EAD7BB;
+  --age-font-color: #363062;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.container-fluid {
+  justify-items: center;
+  background-color: var(--bg-color);
+  height: 20rem;
+  width: 30rem;
+  border-radius: 15px;
+}
+.row {
+  margin: 0.8rem auto 1.6rem auto;
+  justify-items: space-evenly;
+  align-items: space-evenly;
+  align-content: space-evenly;
+  justify-content: space-evenly;
+}
+h1 {
+  margin: 0.8rem auto 1rem auto;
+  text-align: center;
+}
+h3 {
+  margin: 0.2rem auto 1rem auto;
+  font-size: 1rem;
+  text-align: center;
+}
+.age-lable {
+  margin: 0.8rem auto 1rem auto;
+  width: 100%;
+  text-align: center;
+  font-weight: 600;
+  color: var(--age-font-color);
+}
+#calculate {
+  border-color: var(--btn-primary-color);
+  background-color: var(--btn-primary-color);
+  width: 13rem;
+}
+#reset {
+  border-color: var(--btn-secondary-color);
+  background-color: var(--btn-secondary-color);
+  width: 8rem;
+}
