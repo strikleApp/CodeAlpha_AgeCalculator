@@ -1,7 +1,7 @@
-:root{
-  --bg-color : #FFF2D8;
+:root {
+  --bg-color: #fff2d8;
   --btn-primary-color: #113946;
-  --btn-secondary-color: #EAD7BB;
+  --btn-secondary-color: #ead7bb;
   --age-font-color: #363062;
 }
 
@@ -13,7 +13,6 @@ body {
   justify-content: center;
   height: 100vh;
 }
-
 
 h1 {
   margin: 0.8rem auto 1rem auto;
